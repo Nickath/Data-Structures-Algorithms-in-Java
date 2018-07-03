@@ -49,6 +49,8 @@ public class BubbleSort {
 		
 
 		//OPTIMIZED BUBBLESORT IN ASCENDING ORDER
+		//THE FOLLOWING OPTIMIZATION PAYS ATTENTION WHERE THE ALREADY SORTED PARTITION IS
+		//AND DOES NOT TRAVERSE IT AGAIN
 		
 		//FIRST IMPLEMENTATION
 		for(int lastUnsortedIndex = intArray.length -1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
